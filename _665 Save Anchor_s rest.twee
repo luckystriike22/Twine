@@ -1,0 +1,113 @@
+:: StoryTitle
+#665 Save Anchor's rest
+
+
+:: StoryData
+{
+  "ifid": "C70DEED4-088F-49DC-B354-5388725E9A94",
+  "format": "Chapbook",
+  "format-version": "2.3.0",
+  "start": "Dear Wanderer",
+  "zoom": 1
+}
+
+
+:: Continue: I found Clara {"position":"625,625","size":"100,100"}
+I am Clara, the mage sworn to protect Anchor’s Rest. The blue orb you see shields our city from the relentless tides, but a dark force now threatens us. The force is pulling the waters up and the tunnels are already started to flood. A shapeshifter, taking the form of a small elf, trolls around and slips through the streets planting stinky egg bombs. If just one detonates….
+
+If the force grows stronger, our city will be swallowed by the sea. We must act quickly, or Anchor’s Rest will be lost forever. Help us close the force and kill the shapeshifter. But first we’ll need some cloths before you can see and talk to the shapeshifter. Get a ‘robe and cloak’ and hue it. As I can remember, It is a basic color but I only know the path to the color “5 right, 4 down, 7 right, 4 down, 8 right”. Go get them, equip it and come back for a quick check.
+
+[[I am wearing the colored items...]]
+[[Hint: help me find the cloths color]]
+
+
+:: Dear Wanderer {"position":"625,350","size":"100,100"}
+
+_wandererName: ''
+--
+Hey fellow wanderer! My name is Orin Emberwind. So cool you found me between those trees and.... Ow I should cut the trees..... Yeah trees. Uuuh... What is Your name wanderer?
+
+My name is: {text input for: '_wandererName'}
+
+[[Next]]
+
+
+:: Hint: I could use a hint {"position":"475,475","size":"100,100"}
+The coords of the mage tower are 3694, 545 or copy the code below (it will open the games find vendor and points you to the tower). Use the gray runes on the floor to teleport to reach the top level of the building.
+
+I3Vvb3V0bGFuZHPikJ92ZW5kb3Jsb2NhdGlvbuKQn0FuY2hvcidzIFJlc3QgbWFnZSB0b3dlcuKQn0FuY2hvcidzIFJlc3QgbWFnZSB0b3dlcuKQnzM2OTTikJ81NDXikJ82MTU0MzHikJ8xMTE3Nzk5OTc54pCfMTY5Mjc2NTUyNw==
+
+{link to: 'Next', label: 'Back'}
+
+
+:: Hint: help me find the cloths color {"position":"475,625","size":"100,100"}
+To get the right color, buy a dye kit and a tub from a tailor vendor. Open the color palette and follow the instructions, such as: '5 right' means starting from the top left corner and counting 5 colors to the right. Then '4 down' means from that color, move 4 color tints down, and so on. 
+
+{link to: 'Continue: I found Clara', label: 'Back'}
+
+
+:: I am wearing the colored items... {"position":"625,750","size":"100,100"}
+
+
+
+:: Next {"position":"625,475","size":"100,100"}
+{_wandererName}, what an amazing name! Your parents clearly did a great job choosing that name. Hey, I don't know why, but I have a feeling you can help me out. There's an issue in Anchor's Rest... something to do with a troll... or was it a shapeshifter? Well, it doesn’t matter; there’s a serious problem. Maybe you can lend a hand over there. You should talk to Clara, the mage of Anchor's Rest. You’ll find her on the wooden top level of the mage tower.
+
+[[Continue: I found Clara]]
+[[Hint: I could use a hint]]
+
+
+:: StoryStylesheet [stylesheet]
+#page .link {
+	display: inline-block;     
+    padding: 10px 20px;         
+    font-size: 16px;            
+    color: white;               
+    background-color: #007BFF; 
+    border: none;               
+    border-radius: 5px;         
+    text-decoration: none;      
+    text-align: center;         
+    cursor: pointer;            
+    transition: background-color 0.3s; 
+}
+#page .link:hover {
+    background-color: #0056b3;
+  	text-decoration-color: var(--page-link-color);
+  	color: var(--page-link-color);
+  	font-size: initial;
+}
+
+#page .link:active {
+    background-color: #003f7f;
+}
+
+#page footer .link {                 
+    text-decoration: none;      
+    text-align: center;         
+    cursor: pointer;            
+}
+
+#page footer .link:hover {
+    background-color: initial;
+  	text-decoration-color: var(--page-link-color);
+  	color: var(--page-link-color);
+}
+
+#page footer .link:active {
+    background-color: initial;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    width: 100%; 
+}
+
+article p {
+    white-space: normal; 
+    overflow-wrap: break-word; 
+    word-break: break-word; 
+}
