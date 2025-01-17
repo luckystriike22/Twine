@@ -76,8 +76,18 @@ To get the right color, buy a dye kit and a tub from a tailor vendor. Open the c
 
 
 
-:: Next: Hey Clara I know where the force is luring us {"position":"625,1125","size":"100,100"}
+:: Next: Hey Clara I know where the force is hiding {"position":"625,1125","size":"100,100"}
+[Clara]
+Hey {_wandererName}! 
+So, the force is hidden in the dungeon below Anchor’s Rest? That place was once used by our ancestors. It’s filled with statues of all the great figures from our past, including the mages who once protected the city.You must go and close the gate to the underworld. But beware—rumors say vampires lurk inside. Bring garlic to scare them off, and don’t forget a pitcher of wine. The garlic will keep you safe, and the wine… well, that’s just for you to sip as you face whatever horrors lie below.
 
+***
+~~Go buy some garlic and a pitcher of wine to make the ride less scary.
+\
+\
+After you bought the items, go to the cave described in the hint. before you enter the dungeon, drink 4 sips of wine, enter the dungeon and search for the spot where the force is strong. They say the force is strong where the ground is gone and darkness shines. A portal most likely looks like a cross, and inside it has pure black and stars.~~
+
+{back link, label: 'Back'}
 
 
 :: Next: I am wearing the colored items... {"position":"625,750","size":"100,100"}
@@ -135,7 +145,7 @@ The hint: ~~A spot where travelers rest, but stories never sleep. Walk inside an
 *** 
 Go and find the stairs to the darkness below based on the hint. Go downstairs and check if you actually found the hidden dungeon. After that go and meet Clara the mage and tell her that you have found the force's location and where it is.
 
-[[Next: Hey Clara I know where the force is luring us]]
+[[Next: Hey Clara I know where the force is hiding]]
 {link to: 'Hint: Anchors rest underground', label: 'Hint'}
 
 [else]
