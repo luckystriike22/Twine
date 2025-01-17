@@ -12,64 +12,153 @@
 }
 
 
-:: Continue: I found Clara {"position":"625,625","size":"100,100"}
-I am Clara, the mage sworn to protect Anchor’s Rest. The blue orb you see shields our city from the relentless tides, but a dark force now threatens us. The force is pulling the waters up and the tunnels are already started to flood. A shapeshifter, taking the form of a small elf, trolls around and slips through the streets planting stinky egg bombs. If just one detonates….
-
-If the force grows stronger, our city will be swallowed by the sea. We must act quickly, or Anchor’s Rest will be lost forever. Help us close the force and kill the shapeshifter. But first we’ll need some cloths before you can see and talk to the shapeshifter. Get a ‘robe and cloak’ and hue it. As I can remember, It is a basic color but I only know the path to the color “5 right, 4 down, 7 right, 4 down, 8 right”. Go get them, equip it and come back for a quick check.
-
-[[I am wearing the colored items...]]
-[[Hint: help me find the cloths color]]
-
-
 :: Dear Wanderer {"position":"625,350","size":"100,100"}
 
 _wandererName: ''
 --
-Hey fellow wanderer! My name is Orin Emberwind. So cool you found me between those trees and.... Ow I should cut the trees..... Yeah trees. Uuuh... What is Your name wanderer?
+[Orin]
+Hey fellow wanderer! My name is Orin Emberwind. How did you found me between those trees?.... Ow I should prune those trees and bushes... What is Your name my wanderer?
 
 My name is: {text input for: '_wandererName'}
 
 [[Next]]
 
 
-:: Hint: I could use a hint {"position":"475,475","size":"100,100"}
-The coords of the mage tower are 3694, 545 or copy the code below (it will open the games find vendor and points you to the tower). Use the gray runes on the floor to teleport to reach the top level of the building.
+:: Hint: Anchors rest underground {"position":"500,1000","size":"100,100"}
+By 'A spot where travelers rest, but stories never sleep' I mean the Anchor's Rest inn. Search for a room with shovels and boards.
+
+{reveal link: 'The answer', text: '~~Check the minimap for a scret passage in Anchor\'s rest. You can reach it by entering the inn. There you\'ll find the stairs to the underground. Or copy this code and it will open the game\'s vendor finder I3Vvb3V0bGFuZHPikJ92ZW5kb3Jsb2NhdGlvbuKQn1N0YWlycyB0byB0aGUgdW5kZXJncm91bmTikJ9TdGFpcnMgdG8gdGhlIHVuZGVyZ3JvdW5k4pCfMzg0N+KQnzUyMuKQnzYxNTQzMeKQnzExMTc3OTk5NznikJ8xNjkyNzY1NTI3~~'}
+
+{link to: 'Next: Validate the amount of bombs', label: 'Back'}
+
+
+:: Hint: I could use a hint {"position":"500,475","size":"100,100"}
+The coords of the mage tower are 3694, 545 or copy the code below (it will open the games vendor finder gump and it will point you to the tower). Use the gray runes on the floor to teleport to reach the top level of the building.
 
 I3Vvb3V0bGFuZHPikJ92ZW5kb3Jsb2NhdGlvbuKQn0FuY2hvcidzIFJlc3QgbWFnZSB0b3dlcuKQn0FuY2hvcidzIFJlc3QgbWFnZSB0b3dlcuKQnzM2OTTikJ81NDXikJ82MTU0MzHikJ8xMTE3Nzk5OTc54pCfMTY5Mjc2NTUyNw==
 
 {link to: 'Next', label: 'Back'}
 
 
-:: Hint: help me find the cloths color {"position":"475,625","size":"100,100"}
+:: Hint: The bombs {"position":"500,875","size":"100,100"}
+There are three different spots to check for the eggs: the clock tower, the pillars near the tunnels, and the boat houses. The eggs may look like normal eggs, but when you interact with them, they reveal themselves as egg bombs.
+
+* Clock Tower: This should be the easiest to find. It’s located in front of the bank.
+* Pillars: These are referred to as statues and are positioned near the tunnels that lead outside Anchor’s Rest.
+* Boat Houses: To find these, search for Davin, the Anchor’s Rest provisioner 'Davin'. If you have roofs enabled, you can spot the eggs from outside on the roof of the baker and provisioner. If roofs are disabled, you’ll need to go upstairs to check from there.
+
+{reveal link: 'The answer', text: '~~1 on the clock, 1 on the pillar, 1 in the provisioners house and 2 on the bakers house. This makes it a total of 5 bombs~~'}
+
+{link to: 'Next: Talk to the elf', label: 'Back'}
+
+
+:: Hint: find the elf {"position":"500,750","size":"100,100"}
+- find Davin the provisioner. He is nearby the Mage tower. You can use the name filter by hitting ctlr + shift, enable filter by name and type Davin.
+- go upstairs
+- search for a green elf plush toy
+- he is sitting on a shelf
+
+{link to: 'Next: I am wearing the colored items...', label: 'Back'}
+
+
+:: Hint: help me find the cloths color {"position":"500,625","size":"100,100"}
 To get the right color, buy a dye kit and a tub from a tailor vendor. Open the color palette and follow the instructions, such as: '5 right' means starting from the top left corner and counting 5 colors to the right. Then '4 down' means from that color, move 4 color tints down, and so on. 
 
-{link to: 'Continue: I found Clara', label: 'Back'}
-
-
-:: I am wearing the colored items... {"position":"625,750","size":"100,100"}
-
+{link to: 'Next: I found Clara', label: 'Back'}
 
 
 :: Next {"position":"625,475","size":"100,100"}
-{_wandererName}, what an amazing name! Your parents clearly did a great job choosing that name. Hey, I don't know why, but I have a feeling you can help me out. There's an issue in Anchor's Rest... something to do with a troll... or was it a shapeshifter? Well, it doesn’t matter; there’s a serious problem. Maybe you can lend a hand over there. You should talk to Clara, the mage of Anchor's Rest. You’ll find her on the wooden top level of the mage tower.
+[Orin]
+'{_wandererName}', what an amazing name! Your parents clearly did a great job choosing that name. Hey, I don't know why, but I have a feeling you can help me out. There's an issue in Anchor's Rest... It has something to do with a troll... or was it a shapeshifter? Well, it doesn’t matter; there’s a serious problem. Maybe you can lend a hand over there. You should talk to Clara, the mage of Anchor's Rest. You’ll find her on the wooden top level of the mage tower.
 
-[[Continue: I found Clara]]
-[[Hint: I could use a hint]]
+[[Next: I found Clara]]
+{link to: 'Hint: I could use a hint', label: 'Hint'}
+
+
+
+:: Next: Hey Clara I know where the force is luring us {"position":"625,1125","size":"100,100"}
+
+
+
+:: Next: I am wearing the colored items... {"position":"625,750","size":"100,100"}
+[Clara]
+I think this is it! These clothes will protect you against the evil force and allow you to see and speak with the shapeshifter. Word is, he was last seen around this tower. 'Davin the provisioner' said he've seen him around in his bedroom this evening. Go check his house and find the elf! Ask him about the force and why he’s here. We need answers before it’s too late.
+
+***
+~~Search for the small elf. It is said to be nearby, somewhere in Davin the provisioners house.~~
+
+[[Next: Talk to the elf]]
+{link to: 'Hint: find the elf', label: 'Hint'}
+
+
+
+:: Next: I found Clara {"position":"625,625","size":"100,100"}
+[Clara]
+Hey '{_wandererName}'! I am Clara, the mage sworn to protect Anchor’s Rest. There is indeed a serious problem. The blue orb you see shields our city from the relentless tides, but a dark force now threatens us. The force is pulling the waters up and the tunnels are already started to flood. A shapeshifter, taking the form of a small elf, trolls around and slips through the streets planting stinky egg bombs. If just one detonates…. It is said that the elf disguises himself as a plush toy in bedrooms.
+
+If the force grows stronger, our city will be swallowed by the sea. We must act quickly, or Anchor’s Rest will be lost forever. Help us close the force and kill the shapeshifter. But first we’ll need some cloths before you can see and talk to the shapeshifter. Get a ‘robe and cloak’ and hue it. As I can remember, It is a basic color but I only know the path to the color “5 right, 4 down, 7 right, 4 down, 8 right”. Go get them, equip it and come back for a quick check.
+
+***
+~~Purchase a robe and cloak, then dye them in the color combination provided: '5R, 4D, 7R, 4D, 8R.' Equip them and wear them for the entire hunt. Return to Clara, the mage for a check~~
+
+[[Next: I am wearing the colored items...]]
+{link to: 'Hint: help me find the cloths color', label: 'Hint'}
+
+
+:: Next: Talk to the elf {"position":"625,875","size":"100,100"}
+_bombTotalAmount: 0
+--
+
+[The elf]
+Heh heh heh! You think you can stop me? I’m here to turn Anchor’s Rest into a soggy ruin! I am here to troll around and eventually destroy Anchor’s Rest. 
+I’ve planted five stinky egg bombs across the district, just for fun. Oh, and I summoned a gate to the underworld right in the heart of your precious town. This force will lure evil creatures and raise the water levels until the city drowns. 
+
+But I’ll give you a hint! Count the bombs and come back to me. If you found them all, i'll give you a hint to the evil spirits and the force behind it all. Good luck, if you can stop me!
+
+***
+~~The elf planted 5 bombs. How many egg bombs are there on top of the clock {text input for: 'clock', required: false}? Check all dragon statues beside the tunnels to the outside world, how many eggs are hidden there {text input for: 'tunnel', required: false}? and there is more hidden in the boat house of the provisioner and baker. The bombs are planted between normal eggs and nests and can only been seen from the first floor. Click them to see the difference. how many eggs in total do you see for both houses {text input for: 'boat', required: false}?~~
+
+What is the total amount of bombs planted? {text input for: '_bombTotalAmount'}
+
+[[Next: Validate the amount of bombs]]
+{link to: 'Hint: The bombs', label: 'Hint'}
+
+
+
+:: Next: Validate the amount of bombs {"position":"625,1000","size":"100,100"}
+[The Elf]
+[if _bombTotalAmount == 5]
+Well, well, I clearly underestimated you. Turns out, you're smarter and faster than you look, impressive work! As promised, here’s your hint. But tread carefully... this forge is dangerously unpredictable. One wrong move, and it could be the end of you!
+
+The hint: ~~A spot where travelers rest, but stories never sleep. Walk inside and find the room where shovels rest and wood is stacked. There, you’ll find the stairs to the darkness below.~~
+
+*** 
+Go and find the stairs to the darkness below based on the hint. Go downstairs and check if you actually found the hidden dungeon. After that go and meet Clara the mage and tell her that you have found the force's location and where it is.
+
+[[Next: Hey Clara I know where the force is luring us]]
+{link to: 'Hint: Anchors rest underground', label: 'Hint'}
+
+[else]
+Incorrect kiddo! Go back on your egg hunt wanderer.....
+{back link, label: 'Check again'}
 
 
 :: StoryStylesheet [stylesheet]
-#page .link {
+#page article p .link {
 	display: inline-block;     
     padding: 10px 20px;         
     font-size: 16px;            
     color: white;               
     background-color: #007BFF; 
     border: none;               
-    border-radius: 5px;         
+    border-radius: 7px;         
     text-decoration: none;      
     text-align: center;         
     cursor: pointer;            
     transition: background-color 0.3s; 
+    display: flex;
+    justify-content: space-evenly;
+  	margin-top: 7px;
 }
 #page .link:hover {
     background-color: #0056b3;
@@ -110,4 +199,8 @@ article p {
     white-space: normal; 
     overflow-wrap: break-word; 
     word-break: break-word; 
+}
+
+.small-caps {
+  font-size: 17px;
 }
