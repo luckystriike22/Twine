@@ -204,3 +204,7 @@ article p {
 .small-caps {
   font-size: 17px;
 }
+
+#page article input {
+  font-size: 16px;
+}
