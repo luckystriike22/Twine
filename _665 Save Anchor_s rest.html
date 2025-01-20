@@ -329,7 +329,7 @@ My name is: {text input for: &#39;_wandererName&#39;}
 
 [[Next: I found Clara]]
 {link to: &#39;Hint: I could use a hint&#39;, label: &#39;Hint&#39;}
-</tw-passagedata><tw-passagedata pid="3" name="Next: I found Clara" tags="" position="625,625" size="100,100">[Clara]
+{link to: &#39;Dear Wanderer&#39;, label: &#39;Back&#39;}</tw-passagedata><tw-passagedata pid="3" name="Next: I found Clara" tags="" position="625,625" size="100,100">[Clara]
 Hey &#39;{_wandererName}&#39;! I am Clara, the mage sworn to protect Anchor’s Rest. There is indeed a serious problem. The blue orb you see shields our city from the relentless tides, but a dark force now threatens us. The force is pulling the waters up and the tunnels are already started to flood. A shapeshifter, taking the form of a small elf, trolls around and slips through the streets planting stinky egg bombs. If just one detonates…. It is said that the elf disguises himself as a plush toy in bedrooms.
 
 If the force grows stronger, our city will be swallowed by the sea. We must act quickly, or Anchor’s Rest will be lost forever. Help us close the force and kill the shapeshifter. But first we’ll need some cloths before you can see and talk to the shapeshifter. Get a ‘robe and cloak’ and hue it. As I can remember, It is a basic color but I only know the path to the color “5 right, 4 down, 7 right, 4 down, 8 right”. Go get them, equip it and come back for a quick check.
@@ -338,7 +338,8 @@ If the force grows stronger, our city will be swallowed by the sea. We must act 
 ~~Purchase a robe and cloak, then dye them in the color combination provided: &#39;5R, 4D, 7R, 4D, 8R.&#39; Equip them and wear them for the entire hunt. Return to Clara, the mage for a check~~
 
 [[Next: I am wearing the colored items...]]
-{link to: &#39;Hint: help me find the cloths color&#39;, label: &#39;Hint&#39;}</tw-passagedata><tw-passagedata pid="4" name="Hint: I could use a hint" tags="" position="500,475" size="100,100">The coords of the mage tower are 3694, 545 or copy the code below (it will open the games vendor finder gump and it will point you to the tower). Use the gray runes on the floor to teleport to reach the top level of the building.
+{link to: &#39;Hint: help me find the cloths color&#39;, label: &#39;Hint&#39;}
+{link to: &#39;Next&#39;, label: &#39;Back&#39;}</tw-passagedata><tw-passagedata pid="4" name="Hint: I could use a hint" tags="" position="500,475" size="100,100">The coords of the mage tower are 3694, 545 or copy the code below (it will open the games vendor finder gump and it will point you to the tower). Use the gray runes on the floor to teleport to reach the top level of the building.
 
 I3Vvb3V0bGFuZHPikJ92ZW5kb3Jsb2NhdGlvbuKQn0FuY2hvcidzIFJlc3QgbWFnZSB0b3dlcuKQn0FuY2hvcidzIFJlc3QgbWFnZSB0b3dlcuKQnzM2OTTikJ81NDXikJ82MTU0MzHikJ8xMTE3Nzk5OTc54pCfMTY5Mjc2NTUyNw==
 
@@ -352,7 +353,7 @@ I think this is it! These clothes will protect you against the evil force and al
 
 [[Next: Talk to the elf]]
 {link to: &#39;Hint: find the elf&#39;, label: &#39;Hint&#39;}
-</tw-passagedata><tw-passagedata pid="7" name="Hint: find the elf" tags="" position="500,750" size="100,100">- find Davin the provisioner. He is nearby the Mage tower. You can use the name filter by hitting ctlr + shift, enable filter by name and type Davin.
+{link to: &#39;Next: I found Clara&#39;, label: &#39;Back&#39;}</tw-passagedata><tw-passagedata pid="7" name="Hint: find the elf" tags="" position="500,750" size="100,100">- find Davin the provisioner. He is nearby the Mage tower. You can use the name filter by hitting ctlr + shift, enable filter by name and type Davin.
 - go upstairs
 - search for a green elf plush toy
 - he is sitting on a shelf
@@ -373,7 +374,7 @@ What is the total amount of bombs planted? {text input for: &#39;_bombTotalAmoun
 
 [[Next: Validate the amount of bombs]]
 {link to: &#39;Hint: The bombs&#39;, label: &#39;Hint&#39;}
-</tw-passagedata><tw-passagedata pid="9" name="Next: Validate the amount of bombs" tags="" position="625,1000" size="100,100">[The Elf]
+{link to: &#39;Next: I am wearing the colored items...&#39;, label: &#39;Back&#39;}</tw-passagedata><tw-passagedata pid="9" name="Next: Validate the amount of bombs" tags="" position="625,1000" size="100,100">[The Elf]
 [if _bombTotalAmount == 5]
 Well, well, I clearly underestimated you. Turns out, you&#39;re smarter and faster than you look, impressive work! As promised, here’s your hint. But tread carefully... this forge is dangerously unpredictable. One wrong move, and it could be the end of you!
 
@@ -387,7 +388,7 @@ Go and find the stairs to the darkness below based on the hint. Go downstairs an
 
 [else]
 Incorrect kiddo! Go back on your egg hunt wanderer.....
-{back link, label: &#39;Check again&#39;}</tw-passagedata><tw-passagedata pid="10" name="Hint: The bombs" tags="" position="500,875" size="100,100">There are three different spots to check for the eggs: the clock tower, the pillars near the tunnels, and the boat houses. The eggs may look like normal eggs, but when you interact with them, they reveal themselves as egg bombs.
+{link to: &#39;Next: Talk to the elf&#39;, label: &#39;Back&#39;}</tw-passagedata><tw-passagedata pid="10" name="Hint: The bombs" tags="" position="500,875" size="100,100">There are three different spots to check for the eggs: the clock tower, the pillars near the tunnels, and the boat houses. The eggs may look like normal eggs, but when you interact with them, they reveal themselves as egg bombs.
 
 * Clock Tower: This should be the easiest to find. It’s located in front of the bank.
 * Pillars: These are referred to as statues and are positioned near the tunnels that lead outside Anchor’s Rest.
@@ -407,7 +408,7 @@ After you bought the items, go to the cave described in the hint. before you ent
 
 [[Next: Report back to Clara]]
 {link to: &#39;Hint: The portal&#39;, label: &#39;Hint&#39;}
-{back link, label: &#39;Back&#39;}</tw-passagedata><tw-passagedata pid="12" name="Hint: Anchors rest underground" tags="" position="500,1000" size="100,100">By &#39;A spot where travelers rest, but stories never sleep&#39; I mean the Anchor&#39;s Rest inn. Search for a room with shovels and boards.
+{link to: &#39;Next: Validate the amount of bombs&#39;, label: &#39;Back&#39;}</tw-passagedata><tw-passagedata pid="12" name="Hint: Anchors rest underground" tags="" position="500,1000" size="100,100">By &#39;A spot where travelers rest, but stories never sleep&#39; I mean the Anchor&#39;s Rest inn. Search for a room with shovels and boards.
 
 {reveal link: &#39;The answer&#39;, text: &#39;~~Check the minimap for a scret passage in Anchor\&#39;s rest. You can reach it by entering the inn. There you\&#39;ll find the stairs to the underground. Or copy this code and it will open the game\&#39;s vendor finder I3Vvb3V0bGFuZHPikJ92ZW5kb3Jsb2NhdGlvbuKQn1N0YWlycyB0byB0aGUgdW5kZXJncm91bmTikJ9TdGFpcnMgdG8gdGhlIHVuZGVyZ3JvdW5k4pCfMzg0N+KQnzUyMuKQnzYxNTQzMeKQnzExMTc3OTk5NznikJ8xNjkyNzY1NTI3~~&#39;}
 
@@ -421,6 +422,7 @@ Meet the gypsy fortune teller. You can find here at the tip of the island east o
 
 [[Next: Hey fortune teller! Clara send me..]]
 {link to: &#39;Hint: Find the fortune teller&#39;, label: &#39;Hint&#39;}
+{link to: &#39;Next: Hey Clara I know where the force is hiding&#39;, label: &#39;Back&#39;}
 </tw-passagedata><tw-passagedata pid="15" name="Hint: Find the fortune teller" tags="" position="500,1250" size="100,100">You can find the fortune teller as point of interest at witcher rune #170.
 
 {link to: &#39;Next: Report back to Clara&#39;, label: &#39;Back&#39;}
@@ -435,10 +437,36 @@ Before you speak, I already know why you’re here. I’ve seen this force befor
 Oke back to the issue in anchor’s rest. It’s a gate to the unknown, even my spirits cannot peer inside. But I do know how to close that door of ugly creatures. You’ll need four cure potions, four pots of magical honey from Anchor’s Rest’s enchanted garden and four explosion potions. Place a pot on each corner stone of the gate. It is best if you place the cure and honey first on each corner and then the explosion pots. This way the explosion can happen at the same time. That will tame the force. And don’t forget to take a big sip of wine before you begin! you’ll need it! Oke now go....
 
 ***
-~~Get 4 cure potions, 4 explosion potions and Buy 4 honey from Nodin the beekeeper of Anchor&#39;s Rest. After that make your way to the gate inside the dungeon. Place one honey and one cure potion in every corner stone. After that drink another sip of wine and place the explosion potions. Pray and make sure you don’t fart! This will ignite more than just the gate~~</tw-passagedata><tw-passagedata pid="17" name="The Chariot" tags="" position="800,1375" size="100,100">&#39;The Chariot: 
+~~Get 4 cure potions, 4 explosion potions and Buy 4 honey from Nodin the beekeeper of Anchor&#39;s Rest. After that make your way to the gate inside the dungeon. Place one honey and one cure potion in every corner stone. After that drink another sip of wine and place the explosion potions. Pray and make sure you don’t fart! This will ignite more than just the gate. Watch the scene and report back to Clara~~
+
+[[Next: Hey Clara I think we closed the gate]]
+{link to: &#39;Next: Report back to Clara&#39;, label: &#39;Back&#39;}
+</tw-passagedata><tw-passagedata pid="17" name="The Chariot" tags="" position="800,1375" size="100,100">&#39;The Chariot: 
 \
 Ah, The Chariot! Of course. This card is your essence for this journey. It’s about moving forward, traveler, never stopping, no matter the obstacles. Look closely, see the charioteer holding those reins? Those two creatures pulling in opposite directions? That’s you, balancing the chaos of this rising tide with the calm of your focus. If you lose control, the forces pulling against you will tear you apart.
 
 But listen carefully. The Chariot doesn’t promise ease. It doesn’t hand out victories like candy. No, it demands effort. Action. You must gather your tools, face the shapeshifter, confront the darkness in the dungeon, and seal that gate. Every step matters, every choice keeps the wheels turning.
 
-You’re the charioteer, traveler. Hold the reins tightly, stay focused, and you’ll succeed. The spirits don’t send this card lightly; they see your resolve, your grit. So, onward, with courage. The city depends on you&#39;</tw-passagedata></tw-storydata></html>
+You’re the charioteer, traveler. Hold the reins tightly, stay focused, and you’ll succeed. The spirits don’t send this card lightly; they see your resolve, your grit. So, onward, with courage. The city depends on you&#39;</tw-passagedata><tw-passagedata pid="18" name="Next: Hey Clara I think we closed the gate" tags="" position="625,1500" size="100,100">[Clara]
+They say the force has weakened, and the water levels are already starting to lower. However, some of the tunnels are still flooded. We need to meet with Vanessa. She is one of the healers who has already fought a shapeshifter before. She can help you prepare for these kinds of fights. Go meet her. You can find her in the healers&#39; camp on the north side of Anchor&#39;s Rest, just outside the outer walls. Since the high tides broke the northern bridge, you&#39;ll need to reach her by entering the dungeon below Anchor&#39;s Rest and cross it to the other side. Time is of the essence, and Vanessa holds the key to finishing this battle.
+
+***
+
+Enter the dungeon and cross to the other side. There, you will find the healers&#39; camp where Vanessa is stationed.
+
+[[Next: He Venessa Clara send me...]]
+{link to: &#39;Hint: Venessa\&#39;s camp&#39;, label: &#39;Hint&#39;}
+{link to: &#39;Next: Hey fortune teller! Clara send me..&#39;, label: &#39;Back&#39;}</tw-passagedata><tw-passagedata pid="19" name="Hint: Venessa&#39;s camp" tags="" position="500,1500" size="100,100">You can find Venassa at witcher rune #158
+{link to: &#39;Next: Hey Clara I think we closed the gate&#39;, label: &#39;Back&#39;}
+</tw-passagedata><tw-passagedata pid="20" name="Next: He Venessa Clara send me..." tags="" position="625,1625" size="100,100">[Venessa]
+So this is why I couldn’t reach the mages of Anchor’s Rest. This is worse than I thought! To kill a shapeshifter, you’ll need to pierce it with a kryss purified by a purification pyre in the Demon Keep. There’s one nearby, in Prevelia. But be cautious... it’s packed with evil wizards and demons. You’ll need to be prepared. Go to Prevelia and bring a freshly bought kryss. Travel to the pyre and place the kryss in the fire while saying the words &#39;Benedic kryss meum igne&#39; out loud. Only then can we purify it and put an end to this shapeshifter.
+
+***
+
+Go an bless your kyrss at pyre near the deamon keep. You can find the pyre at 1227, 1739’ or witcher #81. After that go back to the elf to kill him.
+
+[[Next: Meet with the elf]]
+{link to: &#39;Next: Hey Clara I think we closed the gate&#39;, label: &#39;Back&#39;}
+</tw-passagedata><tw-passagedata pid="21" name="Next: Meet with the elf" tags="" position="625,1750" size="100,100">The elf is gone but left a note..
+
+~~&#39;&#39;~~</tw-passagedata></tw-storydata></html>

@@ -65,6 +65,12 @@ There are two spots that look like holes in the ground, but only one is in the f
 {link to: 'Next: Hey Clara I know where the force is hiding', label: 'Back'}
 
 
+:: Hint: Venessa's camp {"position":"500,1500","size":"100,100"}
+You can find Venassa at witcher rune #158
+{link to: 'Next: Hey Clara I think we closed the gate', label: 'Back'}
+
+
+
 :: Hint: find the elf {"position":"500,750","size":"100,100"}
 - find Davin the provisioner. He is nearby the Mage tower. You can use the name filter by hitting ctlr + shift, enable filter by name and type Davin.
 - go upstairs
@@ -86,6 +92,19 @@ To get the right color, buy a dye kit and a tub from a tailor vendor. Open the c
 
 [[Next: I found Clara]]
 {link to: 'Hint: I could use a hint', label: 'Hint'}
+{link to: 'Dear Wanderer', label: 'Back'}
+
+
+:: Next: He Venessa Clara send me... {"position":"625,1625","size":"100,100"}
+[Venessa]
+So this is why I couldn’t reach the mages of Anchor’s Rest. This is worse than I thought! To kill a shapeshifter, you’ll need to pierce it with a kryss purified by a purification pyre in the Demon Keep. There’s one nearby, in Prevelia. But be cautious... it’s packed with evil wizards and demons. You’ll need to be prepared. Go to Prevelia and bring a freshly bought kryss. Travel to the pyre and place the kryss in the fire while saying the words 'Benedic kryss meum igne' out loud. Only then can we purify it and put an end to this shapeshifter.
+
+***
+
+Go an bless your kyrss at pyre near the deamon keep. You can find the pyre at 1227, 1739’ or witcher #81. After that go back to the elf to kill him.
+
+[[Next: Meet with the elf]]
+{link to: 'Next: Hey Clara I think we closed the gate', label: 'Back'}
 
 
 
@@ -102,7 +121,20 @@ After you bought the items, go to the cave described in the hint. before you ent
 
 [[Next: Report back to Clara]]
 {link to: 'Hint: The portal', label: 'Hint'}
-{back link, label: 'Back'}
+{link to: 'Next: Validate the amount of bombs', label: 'Back'}
+
+
+:: Next: Hey Clara I think we closed the gate {"position":"625,1500","size":"100,100"}
+[Clara]
+They say the force has weakened, and the water levels are already starting to lower. However, some of the tunnels are still flooded. We need to meet with Vanessa. She is one of the healers who has already fought a shapeshifter before. She can help you prepare for these kinds of fights. Go meet her. You can find her in the healers' camp on the north side of Anchor's Rest, just outside the outer walls. Since the high tides broke the northern bridge, you'll need to reach her by entering the dungeon below Anchor's Rest and cross it to the other side. Time is of the essence, and Vanessa holds the key to finishing this battle.
+
+***
+
+Enter the dungeon and cross to the other side. There, you will find the healers' camp where Vanessa is stationed.
+
+[[Next: He Venessa Clara send me...]]
+{link to: 'Hint: Venessa\'s camp', label: 'Hint'}
+{link to: 'Next: Hey fortune teller! Clara send me..', label: 'Back'}
 
 
 :: Next: Hey fortune teller! Clara send me.. {"position":"625,1375","size":"100,100"}
@@ -117,7 +149,11 @@ Before you speak, I already know why you’re here. I’ve seen this force befor
 Oke back to the issue in anchor’s rest. It’s a gate to the unknown, even my spirits cannot peer inside. But I do know how to close that door of ugly creatures. You’ll need four cure potions, four pots of magical honey from Anchor’s Rest’s enchanted garden and four explosion potions. Place a pot on each corner stone of the gate. It is best if you place the cure and honey first on each corner and then the explosion pots. This way the explosion can happen at the same time. That will tame the force. And don’t forget to take a big sip of wine before you begin! you’ll need it! Oke now go....
 
 ***
-~~Get 4 cure potions, 4 explosion potions and Buy 4 honey from Nodin the beekeeper of Anchor's Rest. After that make your way to the gate inside the dungeon. Place one honey and one cure potion in every corner stone. After that drink another sip of wine and place the explosion potions. Pray and make sure you don’t fart! This will ignite more than just the gate~~
+~~Get 4 cure potions, 4 explosion potions and Buy 4 honey from Nodin the beekeeper of Anchor's Rest. After that make your way to the gate inside the dungeon. Place one honey and one cure potion in every corner stone. After that drink another sip of wine and place the explosion potions. Pray and make sure you don’t fart! This will ignite more than just the gate. Watch the scene and report back to Clara~~
+
+[[Next: Hey Clara I think we closed the gate]]
+{link to: 'Next: Report back to Clara', label: 'Back'}
+
 
 
 :: Next: I am wearing the colored items... {"position":"625,750","size":"100,100"}
@@ -129,7 +165,7 @@ I think this is it! These clothes will protect you against the evil force and al
 
 [[Next: Talk to the elf]]
 {link to: 'Hint: find the elf', label: 'Hint'}
-
+{link to: 'Next: I found Clara', label: 'Back'}
 
 
 :: Next: I found Clara {"position":"625,625","size":"100,100"}
@@ -143,6 +179,13 @@ If the force grows stronger, our city will be swallowed by the sea. We must act 
 
 [[Next: I am wearing the colored items...]]
 {link to: 'Hint: help me find the cloths color', label: 'Hint'}
+{link to: 'Next', label: 'Back'}
+
+
+:: Next: Meet with the elf {"position":"625,1750","size":"100,100"}
+The elf is gone but left a note..
+
+~~''~~
 
 
 :: Next: Report back to Clara {"position":"625,1250","size":"100,100"}
@@ -154,6 +197,7 @@ Meet the gypsy fortune teller. You can find here at the tip of the island east o
 
 [[Next: Hey fortune teller! Clara send me..]]
 {link to: 'Hint: Find the fortune teller', label: 'Hint'}
+{link to: 'Next: Hey Clara I know where the force is hiding', label: 'Back'}
 
 
 
@@ -174,7 +218,7 @@ What is the total amount of bombs planted? {text input for: '_bombTotalAmount'}
 
 [[Next: Validate the amount of bombs]]
 {link to: 'Hint: The bombs', label: 'Hint'}
-
+{link to: 'Next: I am wearing the colored items...', label: 'Back'}
 
 
 :: Next: Validate the amount of bombs {"position":"625,1000","size":"100,100"}
@@ -192,7 +236,7 @@ Go and find the stairs to the darkness below based on the hint. Go downstairs an
 
 [else]
 Incorrect kiddo! Go back on your egg hunt wanderer.....
-{back link, label: 'Check again'}
+{link to: 'Next: Talk to the elf', label: 'Back'}
 
 
 :: The Chariot {"position":"800,1375","size":"100,100"}
