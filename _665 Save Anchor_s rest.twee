@@ -114,7 +114,10 @@ Before you speak, I already know why you’re here. I’ve seen this force befor
 
 ~~*{reveal link: 'Click to turn the tarrot card', passage: 'The Chariot'}*~~
 
-Oke back to the issue in anchor’s rest. It’s a gate to the unknown, even my spirits cannot peer inside. But I do know how to close that door of ugliness.You’ll need four cure potions and four pots of magical honey from Anchor’s Rest’s enchanted garden and 4 explosion potions. Place one cure potion. one pot of honey and a explosion potion on each corner stone of the gate. That will tame the force. And don’t forget to take a big sip of wine before you begin—you’ll want to enjoy the show!
+Oke back to the issue in anchor’s rest. It’s a gate to the unknown, even my spirits cannot peer inside. But I do know how to close that door of ugly creatures. You’ll need four cure potions, four pots of magical honey from Anchor’s Rest’s enchanted garden and four explosion potions. Place a pot on each corner stone of the gate. It is best if you place the cure and honey first on each corner and then the explosion pots. This way the explosion can happen at the same time. That will tame the force. And don’t forget to take a big sip of wine before you begin! you’ll need it! Oke now go....
+
+***
+~~Get 4 cure potions, 4 explosion potions and Buy 4 honey from Nodin the beekeeper of Anchor's Rest. After that make your way to the gate inside the dungeon. Place one honey and one cure potion in every corner stone. After that drink another sip of wine and place the explosion potions. Pray and make sure you don’t fart! This will ignite more than just the gate~~
 
 
 :: Next: I am wearing the colored items... {"position":"625,750","size":"100,100"}
@@ -193,23 +196,23 @@ Incorrect kiddo! Go back on your egg hunt wanderer.....
 
 
 :: The Chariot {"position":"800,1375","size":"100,100"}
-The Chariot: 
+'The Chariot: 
 \
-Ah, The Chariot! Of course. This card is your essence for this journey. It’s about moving forward, traveler, never stopping, no matter the obstacles. Look closely—see the charioteer holding those reins? Those two creatures pulling in opposite directions? That’s you, balancing the chaos of this rising tide with the calm of your focus. If you lose control, the forces pulling against you will tear you apart.
+Ah, The Chariot! Of course. This card is your essence for this journey. It’s about moving forward, traveler, never stopping, no matter the obstacles. Look closely, see the charioteer holding those reins? Those two creatures pulling in opposite directions? That’s you, balancing the chaos of this rising tide with the calm of your focus. If you lose control, the forces pulling against you will tear you apart.
 
-But listen carefully. The Chariot doesn’t promise ease. It doesn’t hand out victories like candy. No, it demands effort. Action. You must gather your tools, face the shapeshifter, confront the darkness in the dungeon, and seal that gate. Every step matters—every choice keeps the wheels turning.
+But listen carefully. The Chariot doesn’t promise ease. It doesn’t hand out victories like candy. No, it demands effort. Action. You must gather your tools, face the shapeshifter, confront the darkness in the dungeon, and seal that gate. Every step matters, every choice keeps the wheels turning.
 
-You’re the charioteer, traveler. Hold the reins tightly, stay focused, and you’ll succeed. The spirits don’t send this card lightly; they see your resolve, your grit. So, onward, with courage. The city depends on you
+You’re the charioteer, traveler. Hold the reins tightly, stay focused, and you’ll succeed. The spirits don’t send this card lightly; they see your resolve, your grit. So, onward, with courage. The city depends on you'
 
 
 :: StoryStylesheet [stylesheet]
 /* normal link buttons */
-#page article p link {
+#page article p .link {
 	display: inline-block;     
     padding: 10px 20px;         
     font-size: 16px;            
     color: white;               
-    background-color: #007BFF; 
+    background-color: gray; 
     border: none;               
     border-radius: 7px;         
     text-decoration: none;      
@@ -222,7 +225,7 @@ You’re the charioteer, traveler. Hold the reins tightly, stay focused, and you
 }
 
 #page .link:active {
-    background-color: #003f7f;
+    background-color: dimgray;
 }
 
 #page footer .link {                 
@@ -256,7 +259,7 @@ You’re the charioteer, traveler. Hold the reins tightly, stay focused, and you
 }
 
 #page .link:hover {
-    background-color: #0056b3;
+    background-color: dimgray;
   	text-decoration-color: var(--page-link-color);
   	color: var(--page-link-color);
   	font-size: initial;
@@ -289,6 +292,8 @@ article p {
 
 .small-caps {
   font-size: 17px;
+  font-variant: common-ligatures !important;
+  font-style: italic;
 }
 
 #page article input {
