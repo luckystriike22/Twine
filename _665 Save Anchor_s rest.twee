@@ -32,6 +32,13 @@ By 'A spot where travelers rest, but stories never sleep' I mean the Anchor's Re
 {link to: 'Next: Validate the amount of bombs', label: 'Back'}
 
 
+:: Hint: Find the fortune teller {"position":"500,1250","size":"100,100"}
+You can find the fortune teller as point of interest at witcher rune #170.
+
+{link to: 'Next: Report back to Clara', label: 'Back'}
+
+
+
 :: Hint: I could use a hint {"position":"500,475","size":"100,100"}
 The coords of the mage tower are 3694, 545 or copy the code below (it will open the games vendor finder gump and it will point you to the tower). Use the gray runes on the floor to teleport to reach the top level of the building.
 
@@ -50,6 +57,12 @@ There are three different spots to check for the eggs: the clock tower, the pill
 {reveal link: 'The answer', text: '~~1 on the clock, 1 on the pillar, 1 in the provisioners house and 2 on the bakers house. This makes it a total of 5 bombs~~'}
 
 {link to: 'Next: Talk to the elf', label: 'Back'}
+
+
+:: Hint: The portal {"position":"500,1125","size":"100,100"}
+There are two spots that look like holes in the ground, but only one is in the form of a cross or plus sign. It is not the one in the center; instead, look in the top-left corner.
+
+{link to: 'Next: Hey Clara I know where the force is hiding', label: 'Back'}
 
 
 :: Hint: find the elf {"position":"500,750","size":"100,100"}
@@ -85,9 +98,23 @@ So, the force is hidden in the dungeon below Anchor’s Rest? That place was onc
 ~~Go buy some garlic and a pitcher of wine to make the ride less scary.
 \
 \
-After you bought the items, go to the cave described in the hint. before you enter the dungeon, drink 4 sips of wine, enter the dungeon and search for the spot where the force is strong. They say the force is strong where the ground is gone and darkness shines. A portal most likely looks like a cross, and inside it has pure black and stars.~~
+After you bought the items, go to the cave described in the hint. before you enter the dungeon, drink 4 sips of wine, enter the dungeon and search for the spot where the force is strong. They say the force is strong where the ground is gone and darkness shines. The portal most likely looks like a cross, and inside it has pure black and some stars. After you found it, report back to Clara~~
 
+[[Next: Report back to Clara]]
+{link to: 'Hint: The portal', label: 'Hint'}
 {back link, label: 'Back'}
+
+
+:: Next: Hey fortune teller! Clara send me.. {"position":"625,1375","size":"100,100"}
+[Fortune teller]
+Greetings, traveler! Don’t speak... That scent! Have you met with Orin? Damn long time i’ve seen him around. Make sure to say hi to him when you meet again.
+\
+\
+Before you speak, I already know why you’re here. I’ve seen this force before. But first sit down and play with some cards. [Walks around , lights some incense sticks that smell like dried melloweed and lays down some tarrot cards]. Oke ready? pick one of the 4 cards and it will tell you something about your faith in this quest...
+
+~~*{reveal link: 'Click to turn the tarrot card', passage: 'The Chariot'}*~~
+
+Oke back to the issue in anchor’s rest. It’s a gate to the unknown, even my spirits cannot peer inside. But I do know how to close that door of ugliness.You’ll need four cure potions and four pots of magical honey from Anchor’s Rest’s enchanted garden and 4 explosion potions. Place one cure potion. one pot of honey and a explosion potion on each corner stone of the gate. That will tame the force. And don’t forget to take a big sip of wine before you begin—you’ll want to enjoy the show!
 
 
 :: Next: I am wearing the colored items... {"position":"625,750","size":"100,100"}
@@ -113,6 +140,18 @@ If the force grows stronger, our city will be swallowed by the sea. We must act 
 
 [[Next: I am wearing the colored items...]]
 {link to: 'Hint: help me find the cloths color', label: 'Hint'}
+
+
+:: Next: Report back to Clara {"position":"625,1250","size":"100,100"}
+[Clara]
+I met with the other mages, and we’ve decided you should seek out the gypsy fortune teller. She has the gift to see the future, and maybe she can reveal how we can close this portal for good. Her insight could be the key to stopping the forces threatening Anchor’s Rest. Go speak with her—time is of the essence. You can find her on the Easy side island of Anchor's Rest docks. Note that she can be a bit strange. Do what she says; otherwise, the odds might turn against you.
+
+***
+Meet the gypsy fortune teller. You can find here at the tip of the island east of the anchor’s docks ‘4304, 475' 
+
+[[Next: Hey fortune teller! Clara send me..]]
+{link to: 'Hint: Find the fortune teller', label: 'Hint'}
+
 
 
 :: Next: Talk to the elf {"position":"625,875","size":"100,100"}
@@ -153,8 +192,19 @@ Incorrect kiddo! Go back on your egg hunt wanderer.....
 {back link, label: 'Check again'}
 
 
+:: The Chariot {"position":"800,1375","size":"100,100"}
+The Chariot: 
+\
+Ah, The Chariot! Of course. This card is your essence for this journey. It’s about moving forward, traveler, never stopping, no matter the obstacles. Look closely—see the charioteer holding those reins? Those two creatures pulling in opposite directions? That’s you, balancing the chaos of this rising tide with the calm of your focus. If you lose control, the forces pulling against you will tear you apart.
+
+But listen carefully. The Chariot doesn’t promise ease. It doesn’t hand out victories like candy. No, it demands effort. Action. You must gather your tools, face the shapeshifter, confront the darkness in the dungeon, and seal that gate. Every step matters—every choice keeps the wheels turning.
+
+You’re the charioteer, traveler. Hold the reins tightly, stay focused, and you’ll succeed. The spirits don’t send this card lightly; they see your resolve, your grit. So, onward, with courage. The city depends on you
+
+
 :: StoryStylesheet [stylesheet]
-#page article p .link {
+/* normal link buttons */
+#page article p link {
 	display: inline-block;     
     padding: 10px 20px;         
     font-size: 16px;            
@@ -170,12 +220,6 @@ Incorrect kiddo! Go back on your egg hunt wanderer.....
     justify-content: space-evenly;
   	margin-top: 7px;
 }
-#page .link:hover {
-    background-color: #0056b3;
-  	text-decoration-color: var(--page-link-color);
-  	color: var(--page-link-color);
-  	font-size: initial;
-}
 
 #page .link:active {
     background-color: #003f7f;
@@ -187,6 +231,38 @@ Incorrect kiddo! Go back on your egg hunt wanderer.....
     cursor: pointer;            
 }
 
+#page article p reveal-link.link {        
+    font-size: 16px;            
+    color: white;               
+    text-decoration: none;      
+    text-align: center;         
+    cursor: pointer;            
+    transition: background-color 0.3s; 
+    display: flex;
+    justify-content: space-evenly;
+  	margin-top: 7px;
+}
+
+/* reveal link buttons */
+#page reveal-link.link:hover {
+    background-color: gray;
+  	text-decoration-color: var(--page-link-color);
+  	color: var(--page-link-color);
+  	font-size: initial;
+}
+
+#page reveal-link.link:active {
+    background-color: gray;
+}
+
+#page .link:hover {
+    background-color: #0056b3;
+  	text-decoration-color: var(--page-link-color);
+  	color: var(--page-link-color);
+  	font-size: initial;
+}
+
+/* footer link buttons */
 #page footer .link:hover {
     background-color: initial;
   	text-decoration-color: var(--page-link-color);
@@ -217,4 +293,9 @@ article p {
 
 #page article input {
   font-size: 16px;
+}
+
+#backdrop {
+  background-image: url(https://i.imgur.com/LpApzlf.png);
+  background-size:cover;
 }
