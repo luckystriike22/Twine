@@ -7,13 +7,12 @@
   "ifid": "C70DEED4-088F-49DC-B354-5388725E9A94",
   "format": "Chapbook",
   "format-version": "2.3.0",
-  "start": "Dear Wanderer",
+  "start": "Dear Wanderer2",
   "zoom": 1
 }
 
 
 :: Dear Wanderer {"position":"625,350","size":"100,100"}
-
 _wandererName: ''
 --
 [Orin]
@@ -22,6 +21,17 @@ Hey fellow wanderer! My name is Orin Emberwind. How did you found me between tho
 My name is: {text input for: '_wandererName'}
 
 [[Next]]
+
+
+:: Dear Wanderer2 {"position":"625,200","size":"100,100"}
+Hey welcome to my first ever quest! I hope you enjoy it. 
+
+***
+~~Meet Orin at his caravan wagon witcher #92, coordinates "1543, 1998" or copy the code below and that will open the vendor location gump~~
+
+~~I3Vvb3V0bGFuZHPikJ92ZW5kb3Jsb2NhdGlvbuKQn09yaW4ncyB3YWdvbuKQn09yaW4ncyB3YWdvbuKQnzE1NDPikJ8xOTk44pCfNjE1NDMx4pCfMTExNzc5OTk3OeKQnzE2OTI3NjU1Mjc=~~
+
+{link to: 'Dear Wanderer', label: 'Start: Hey Orin!!'}
 
 
 :: Hint: Anchors rest underground {"position":"500,1000","size":"100,100"}
