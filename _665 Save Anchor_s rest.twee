@@ -21,6 +21,7 @@ Hey fellow wanderer! My name is Orin Emberwind. How did you found me between tho
 My name is: {text input for: '_wandererName'}
 
 [[Next]]
+{link to: 'Dear Wanderer2', label: 'Back'}
 
 
 :: Dear Wanderer2 {"position":"625,200","size":"100,100"}
