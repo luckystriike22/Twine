@@ -55,6 +55,8 @@ Teleport to Witcher #353 and use the code below to navigate to the cave entrance
 
 I3Vvb3V0bGFuZHPikJ92ZW5kb3Jsb2NhdGlvbuKQn1RoZSBjYXZlIHRvIHRoZSBtYWdlIHBvcnRhbOKQn1RoZSBjYXZlIHRvIHRoZSBtYWdlIHBvcnRhbOKQnzM1MTnikJ8xOTMy4pCfNjE1NDMx4pCfMTExNzc5OTk3OeKQnzE2OTI3NjU1Mjc=
 
+{link to: 'Next: Hey Clara...', label: 'Back'}
+
 
 :: Hint: I could use a hint {"position":"500,475","size":"100,100"}
 The coords of the mage tower are 3694, 545 or copy the code below (it will open the games vendor finder gump and it will point you to the tower). Use the gray runes on the floor to teleport to reach the top level of the building.
@@ -148,11 +150,11 @@ I'll see what I can do for the mage. [Gently trickles fingers over an amulet on 
 
 
 
-:: Next: He Venessa Clara send me... {"position":"625,1625","size":"100,100"}
+:: Next: He Venessa Clara sent me... {"position":"625,1625","size":"100,100"}
 [Venessa]
 So this is why I couldn’t reach the mages of Anchor’s Rest. This is worse than I thought! To kill a shapeshifter, you’ll need to pierce it with a weapon purified by the pyre in the Demon Keep. There’s one nearby, in Prevelia. But be cautious... it's swarming with evil wizards and demons. You’ll need to be well-prepared.
 
-Go to Prevelia and bring your weapon. Travel to the pyre and place the kryss in the flames while saying the words 'Benedic kryss meum igne' out loud. Only then can we purify the weapon and put an end to this shapeshifter.
+Go to Prevelia and bring your weapon. Travel to the pyre and place the weapon in the flames while saying the words 'Benedic arma mea igne' out loud. Only then can we purify the weapon and put an end to this shapeshifter.
 
 ***
 
@@ -187,9 +189,9 @@ They say the force has weakened, and the water levels are already starting to lo
 
 Enter the dungeon and cross to the other side. There, you will find the healers' camp where Vanessa is stationed.
 
-[[Next: He Venessa Clara send me...]]
+[[Next: He Venessa Clara sent me...]]
 {link to: 'Hint: Venessa\'s camp', label: 'Hint'}
-{link to: 'Next: Hey fortune teller! Clara send me..', label: 'Back'}
+{link to: 'Next: Hey fortune teller! Clara sent me..', label: 'Back'}
 
 
 :: Next: Hey Clara... {"position":"625,1875","size":"100,100"}
@@ -204,16 +206,16 @@ So, the hint says the shapeshifter will be waiting at the ruins. You must go the
 {link to: 'Next: Meet with the elf', label: 'Back'}
 
 
-:: Next: Hey fortune teller! Clara send me.. {"position":"625,1375","size":"100,100"}
+:: Next: Hey fortune teller! Clara sent me.. {"position":"625,1375","size":"100,100"}
 [Fortune teller]
 Greetings, traveler! Don’t speak... That scent! Have you met with Orin? Damn long time i’ve seen him around. Make sure to say hi to him when you meet again.
 \
 \
-Before you speak, I already know why you’re here. I’ve seen this force before. But first sit down and play with some cards. [Walks around , lights some incense sticks that smell like dried melloweed and lays down some tarrot cards]. Oke ready? pick one of the 4 cards and it will tell you something about your faith in this quest...
+Before you speak, I already know why you’re here. I’ve seen this force before. But first sit down and play with some cards. [Walks around , lights some incense sticks that smell like dried melloweed and lays down some tarrot cards]. Okay ready? pick one of the 4 cards and it will tell you something about your faith in this quest...
 
 ~~*{reveal link: 'Click to turn the tarrot card', passage: 'The Chariot'}*~~
 
-Oke back to the issue in anchor’s rest. It’s a gate to the unknown, even my spirits cannot peer inside. But I do know how to close that door of ugly creatures. You’ll need four cure potions, four pots of magical honey from Anchor’s Rest’s enchanted garden and four explosion potions. Place a pot on each corner stone of the gate. It is best if you place the cure and honey first on each corner and then the explosion pots. This way the explosion can happen at the same time. That will tame the force. And don’t forget to take a big sip of wine before you begin! you’ll need it! Oke now go....
+Okay back to the issue in anchor’s rest. It’s a gate to the unknown, even my spirits cannot peer inside. But I do know how to close that door of ugly creatures. You’ll need four cure potions, four pots of magical honey from Anchor’s Rest’s enchanted garden and four explosion potions. Place a pot on each corner stone of the gate. It is best if you place the cure and honey first on each corner and then the explosion pots. This way the explosion can happen at the same time. That will tame the force. And don’t forget to take a big sip of wine before you begin! you’ll need it! Oke now go....
 
 ***
 ~~Get 4 cure potions, 4 explosion potions and Buy 4 honey from Nodin the beekeeper of Anchor's Rest. After that make your way to the gate inside the dungeon. Place one honey and one cure potion in every corner stone. After that drink another sip of wine and place the explosion potions. Pray and make sure you don’t fart! This will ignite more than just the gate. Watch the scene and report back to Clara~~
@@ -237,7 +239,7 @@ I think this is it! These clothes will protect you against the evil force and al
 
 :: Next: I found Clara {"position":"625,625","size":"100,100"}
 [Clara]
-Hey '{_wandererName}'! I am Clara, the mage sworn to protect Anchor’s Rest. There is indeed a serious problem. The blue orb you see shields our city from the relentless tides, but a dark force now threatens us. The force is pulling the waters up and the tunnels are already started to flood. A shapeshifter, taking the form of a small elf, trolls around and slips through the streets planting stinky egg bombs. If just one detonates…. It is said that the elf disguises himself as a plush toy in bedrooms.
+Hey '{_wandererName}'! I am Clara, the mage sworn to protect Anchor’s Rest. There is indeed a serious problem. The blue orb you see shields our city from the relentless tides, but a dark force now threatens us. The force is pulling the waters up and the tunnels are already starting to flood. A shapeshifter, taking the form of a small elf, trolls around and slips through the streets planting stinky egg bombs. If just one detonates…. It is said that the elf disguises himself as a plush toy in bedrooms.
 
 If the force grows stronger, our city will be swallowed by the sea. We must act quickly, or Anchor’s Rest will be lost forever. Help us close the force and kill the shapeshifter. But first we’ll need some cloths before you can see and talk to the shapeshifter. Get a ‘robe and cloak’ and hue it. As I can remember, It is a basic color but I only know the path to the color “5 right, 4 down, 7 right, 4 down, 8 right”. Go get them, equip it and come back for a quick check.
 
@@ -272,7 +274,7 @@ The elf is gone but left a note.. ~~'Meet me in the dungeon below the time castl
 ~~Go back to Clara and tell her that you prepared to fight the elf but that he is gone~~
 
 [[Next: Hey Clara...]]
-{link to: 'Next: He Venessa Clara send me...', label: 'Back'}
+{link to: 'Next: He Venessa Clara sent me...', label: 'Back'}
 
 
 :: Next: Report back to Clara {"position":"625,1250","size":"100,100"}
@@ -282,7 +284,7 @@ I met with the other mages, and we’ve decided you should seek out the gypsy fo
 ***
 Meet the gypsy fortune teller. You can find here at the tip of the island east of the anchor’s docks ‘4304, 475' 
 
-[[Next: Hey fortune teller! Clara send me..]]
+[[Next: Hey fortune teller! Clara sent me..]]
 {link to: 'Hint: Find the fortune teller', label: 'Hint'}
 {link to: 'Next: Hey Clara I know where the force is hiding', label: 'Back'}
 
