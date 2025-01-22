@@ -39,6 +39,12 @@ You can find the fortune teller as point of interest at witcher rune #170.
 
 
 
+:: Hint: Find the mage {"position":"500,1875","size":"100,100"}
+Teleport to Witcher #353 and use the code below to navigate to the cave entrance. Inside the cave, you’ll find a gray portal. Enter the portal.
+
+I3Vvb3V0bGFuZHPikJ92ZW5kb3Jsb2NhdGlvbuKQn1RoZSBjYXZlIHRvIHRoZSBtYWdlIHBvcnRhbOKQn1RoZSBjYXZlIHRvIHRoZSBtYWdlIHBvcnRhbOKQnzM1MTnikJ8xOTMy4pCfNjE1NDMx4pCfMTExNzc5OTk3OeKQnzE2OTI3NjU1Mjc=
+
+
 :: Hint: I could use a hint {"position":"500,475","size":"100,100"}
 The coords of the mage tower are 3694, 545 or copy the code below (it will open the games vendor finder gump and it will point you to the tower). Use the gray runes on the floor to teleport to reach the top level of the building.
 
@@ -86,6 +92,22 @@ To get the right color, buy a dye kit and a tub from a tailor vendor. Open the c
 {link to: 'Next: I found Clara', label: 'Back'}
 
 
+:: Hint: shapeshifter formula {"position":"500,2000","size":"100,100"}
+The formula is '(2000/2) + 100 x (616/88) + 1130='. In order to calculate this you'll need to know what the calculate priority rules are. In theis case it is order from first to last:
+* Parentheses
+* Multiplication or Division
+* Addition
+ 
+For example: 
+33 x 100 + (25 / 5) is goind to be
+* Partentheses (25/5) = 5
+* Multiply 33 x 100 = 330
+* Add 300 + 5 = 305
+
+{reveal link: 'Answer', text: '1000 + 700 + 1130 = 2830'}
+{link to: 'Next: I found the mage....', label: 'Back'}
+
+
 :: Next {"position":"625,475","size":"100,100"}
 [Orin]
 '{_wandererName}', what an amazing name! Your parents clearly did a great job choosing that name. Hey, I don't know why, but I have a feeling you can help me out. There's an issue in Anchor's Rest... It has something to do with a troll... or was it a shapeshifter? Well, it doesn’t matter; there’s a serious problem. Maybe you can lend a hand over there. You should talk to Clara, the mage of Anchor's Rest. You’ll find her on the wooden top level of the mage tower.
@@ -95,13 +117,35 @@ To get the right color, buy a dye kit and a tub from a tailor vendor. Open the c
 {link to: 'Dear Wanderer', label: 'Back'}
 
 
+:: Next: Clara I killed it.... {"position":"625,2250","size":"100,100"}
+[Clara]
+Well done {_wandererName}! You saved Anchor’s Rest.
+\
+\
+... Ow hey Orin!!! ...
+
+[Orin]
+Greetings, Wanderer {_wandererName}, and beautiful mage Clara! — Ooh, shiny blue orb [mumbles]... I heard you had a great time fighting demons and dark forces.
+
+[Clara]
+Yeah, {_wandererName} found that elf, closed the gate in our dungeon, spoke to the gypsy fortune teller, Venessa, and killed the shapeshifter. Unfortunately, we also lost one of our great mages in the first encounter with the shapeshifter...
+
+[Orin]
+I'll see what I can do for the mage. [Gently trickles fingers over an amulet on his belt.] Great work, Wanderer. I'll write you down in my book of wanderers to summon when there is another quest of this kind.
+
+[[Next:...]]
+
+
+
 :: Next: He Venessa Clara send me... {"position":"625,1625","size":"100,100"}
 [Venessa]
-So this is why I couldn’t reach the mages of Anchor’s Rest. This is worse than I thought! To kill a shapeshifter, you’ll need to pierce it with a kryss purified by a purification pyre in the Demon Keep. There’s one nearby, in Prevelia. But be cautious... it’s packed with evil wizards and demons. You’ll need to be prepared. Go to Prevelia and bring a freshly bought kryss. Travel to the pyre and place the kryss in the fire while saying the words 'Benedic kryss meum igne' out loud. Only then can we purify it and put an end to this shapeshifter.
+So this is why I couldn’t reach the mages of Anchor’s Rest. This is worse than I thought! To kill a shapeshifter, you’ll need to pierce it with a weapon purified by the pyre in the Demon Keep. There’s one nearby, in Prevelia. But be cautious... it's swarming with evil wizards and demons. You’ll need to be well-prepared.
+
+Go to Prevelia and bring your weapon. Travel to the pyre and place the kryss in the flames while saying the words 'Benedic kryss meum igne' out loud. Only then can we purify the weapon and put an end to this shapeshifter.
 
 ***
 
-Go an bless your kyrss at pyre near the deamon keep. You can find the pyre at 1227, 1739’ or witcher #81. After that go back to the elf to kill him.
+Go an bless your weapon at pyre near the deamon keep. You can find the pyre at 1227, 1739’ or witcher #81. After that go back to the elf to kill him.
 
 [[Next: Meet with the elf]]
 {link to: 'Next: Hey Clara I think we closed the gate', label: 'Back'}
@@ -111,7 +155,7 @@ Go an bless your kyrss at pyre near the deamon keep. You can find the pyre at 12
 :: Next: Hey Clara I know where the force is hiding {"position":"625,1125","size":"100,100"}
 [Clara]
 Hey {_wandererName}! 
-So, the force is hidden in the dungeon below Anchor’s Rest? That place was once used by our ancestors. It’s filled with statues of all the great figures from our past, including the mages who once protected the city.You must go and close the gate to the underworld. But beware—rumors say vampires lurk inside. Bring garlic to scare them off, and don’t forget a pitcher of wine. The garlic will keep you safe, and the wine… well, that’s just for you to sip as you face whatever horrors lie below.
+So, the force is hidden in the dungeon below Anchor’s Rest? That place was once used by our ancestors. It’s filled with statues of all the great figures from our past, including the mages who once protected the city.You must go and close the gate to the underworld. But beware.. rumors say vampires lurk inside. Bring garlic to scare them off, and don’t forget a pitcher of wine. The garlic will keep you safe, and the wine… well, that’s just for you to sip as you face whatever horrors lie below. In the meantime, I will talk to the guards to clean up the bombs planted by the elf.
 
 ***
 ~~Go buy some garlic and a pitcher of wine to make the ride less scary.
@@ -135,6 +179,18 @@ Enter the dungeon and cross to the other side. There, you will find the healers'
 [[Next: He Venessa Clara send me...]]
 {link to: 'Hint: Venessa\'s camp', label: 'Hint'}
 {link to: 'Next: Hey fortune teller! Clara send me..', label: 'Back'}
+
+
+:: Next: Hey Clara... {"position":"625,1875","size":"100,100"}
+[Clara]
+So, the hint says the shapeshifter will be waiting at the ruins. You must go there immediately! I’ll send one of my strongest mages to aid you. There’s a hidden tunnel insid.e... on the right side of the rocky wall. Meet him there, and together, you’ll confront this threat once and for all.
+
+***
+~~Go to the Time Castle #353 and follow the rocky mountains on the right side (the bottom side when your map is rotated). There, you’ll find a tunnel leading into the castle. Inside the castle, you’ll discover a cave. Enter the cave, and you’ll see the gray portal summoned by the mage.~~
+
+[[Next: I found the mage....]]
+{link to: 'Hint: Find the mage', label: 'Hint'}
+{link to: 'Next: Meet with the elf', label: 'Back'}
 
 
 :: Next: Hey fortune teller! Clara send me.. {"position":"625,1375","size":"100,100"}
@@ -182,10 +238,30 @@ If the force grows stronger, our city will be swallowed by the sea. We must act 
 {link to: 'Next', label: 'Back'}
 
 
-:: Next: Meet with the elf {"position":"625,1750","size":"100,100"}
-The elf is gone but left a note..
+:: Next: I found the mage.... {"position":"625,2000","size":"100,100"}
+[You hear a dark deep voice]
+You are too late! I am already gone. I killed your little friend! Next time we meet, come alone! Meet me as deamon! Meet me at coordinates '1284, ***'. The following sum is the second part of the coordinate: 
+\
+~~'(2000/2) + 100 x (616/88) + 1130= {text input for: 'coordinate', required: false}'~~ 
+\
+Let's fight and see if you're strong enough to face me!
 
-~~''~~
+***
+~~Find the location by combining the given coordinate part with the outcome of the hint formula. Meet the shapeshifter there.~~
+
+[[Next: Wow that is a big monster....]]
+{link to: 'Hint: shapeshifter formula', label: 'Hint'}
+{link to: 'Next: Hey Clara...', label: 'Back'}
+
+
+:: Next: Meet with the elf {"position":"625,1750","size":"100,100"}
+The elf is gone but left a note.. ~~'Meet me in the dungeon below the time castle ruins!'~~
+
+***
+~~Go back to Clara and tell her that you prepared to fight the elf but that he is gone~~
+
+[[Next: Hey Clara...]]
+{link to: 'Next: He Venessa Clara send me...', label: 'Back'}
 
 
 :: Next: Report back to Clara {"position":"625,1250","size":"100,100"}
@@ -237,6 +313,21 @@ Go and find the stairs to the darkness below based on the hint. Go downstairs an
 [else]
 Incorrect kiddo! Go back on your egg hunt wanderer.....
 {link to: 'Next: Talk to the elf', label: 'Back'}
+
+
+:: Next: Wow that is a big monster.... {"position":"625,2125","size":"100,100"}
+Kill that ugly deamon and meet with Clara!
+
+[[Next: Clara I killed it....]]
+{link to: 'Next: I found the mage....', label: 'Back'}
+
+
+:: Next:... {"position":"625,2375","size":"100,100"}
+THE END!!!!
+
+
+~~Thank you for doing taking part of thr RP community in UO Outlands. \
+Send @luckystriike a message on Discord if you liked it and want your name written down in the quest book at Orin's wagon.~~
 
 
 :: The Chariot {"position":"800,1375","size":"100,100"}
